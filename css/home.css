@@ -43,3 +43,27 @@ body {
 
 .site {
 }
+
+.email-phone {
+  border: solid 1px #e4e4e4;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.password {
+  border: solid 1px #e4e4e4;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.email-phone:focus {
+  border: solid 1px #e4e4e4;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.sign-up {
+  border: solid 1px #e4e4e4;
+  border-radius: 3px;
+  padding: 10px;
+}
