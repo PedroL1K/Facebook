@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px #e4e4e4;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 50px 50px 200px 50px;
+  text-align: center;
+  width: 500px;
+  height: fit-content;
+  top: 35%;
+  right: 10%;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+.email-phone {
+  display: block 10px;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 10%;
+  top: 35%;
+  width: 500px;
+  height: 400px;
+}
+
+.banner {
+  position: relative;
+  display: block;
+  width: fit-content;
+}
+
+.site {
+}
