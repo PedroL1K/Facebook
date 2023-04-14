@@ -15,17 +15,15 @@
   height: fit-content;
   top: 35%;
   right: 10%;
+  position: absolute;
 }
 
 body {
   background-color: #f0f2f5;
 }
 
-.email-phone {
-  display: block 10px;
-}
-
 .apresentacao {
+  position: absolute;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -37,12 +35,13 @@ body {
 
 .banner {
   position: relative;
-  display: block;
+  display: flex;
   width: fit-content;
 }
 
 .site {
 }
+
 
 .email-phone {
   border: solid 1px #e4e4e4;
@@ -67,3 +66,10 @@ body {
   border-radius: 3px;
   padding: 10px;
 }
+
+.container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
